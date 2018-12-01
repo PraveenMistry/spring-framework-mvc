@@ -14,67 +14,67 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>4.3.17.RELEASE</spring.version>
-        <mysql.connector.version>5.1.30</mysql.connector.version>
+        <mysql.connector.version>{}</mysql.connector.version>
     </properties>
     <dependencies>
         <!-- Junit -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>{}</version>
             <scope>test</scope>
         </dependency>
         <!--Servlet-Api -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
-            <version>3.1.0</version>
+            <version>{}</version>
             <scope>provided</scope>
         </dependency>
         <!-- Spring Framework -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>4.3.17.RELEASE</version>
+            <version>{}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-beans</artifactId>
-            <version>4.3.17.RELEASE</version>
+            <version>{}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>4.3.17.RELEASE</version>
+            <version>{}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
-            <version>4.3.17.RELEASE</version>
+            <version>{}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>4.3.17.RELEASE</version>
+            <version>{}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>4.3.17.RELEASE</version>
+            <version>{}</version>
         </dependency>
         <!-- Servlet API -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
-            <version>4.0.0</version>
+            <version>{}</version>
             <scope>provided</scope>
         </dependency>
         <!-- MySQL database driver -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.30</version>
+            <version>{}</version>
         </dependency>
     </dependencies>
     <build>
@@ -84,7 +84,7 @@
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
-                <version>2.2</version>
+                <version>{}</version>
                 <configuration>
                     <path>/</path>
                 </configuration>
