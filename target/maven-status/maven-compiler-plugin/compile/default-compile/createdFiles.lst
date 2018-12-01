@@ -1,0 +1,9 @@
+com/dao/UserDao.class
+com/dao/UserDaoImpl.class
+com/controller/LoginController.class
+com/controller/RegistrationController.class
+com/service/UserServiceImpl.class
+com/model/Login.class
+com/service/UserService.class
+com/dao/UserMapper.class
+com/model/User.class
